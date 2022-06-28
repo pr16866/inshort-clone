@@ -88,7 +88,7 @@ export default function Newscard({ pernews }) {
                 {pernews.content}
               </Typography>
               <Typography className={classes.publisher}>
-                read more at :- 
+             
                 <a href={pernews.readMoreUrl} target="_blank" rel="noreferrer">
                   {/* {pernews.readMoreUrl} */}
                   <Button color='primary'> Read More</Button>
